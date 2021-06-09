@@ -13,6 +13,7 @@ public class CustomerMain {
         System.out.println("Name: "+c.getName());
         System.out.println("Address: "+c.getAddress());
         System.out.println("Mobile: "+c.getMobile());
+        sc.close();
 
 
     }

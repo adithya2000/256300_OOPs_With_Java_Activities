@@ -88,6 +88,7 @@ public class EmployeesMain {
                         break;     
                 }
         }
+        sc.close();
         }
         catch(Exception ex){
             System.out.println("Invalid Input");

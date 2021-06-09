@@ -22,6 +22,7 @@ public class CompanyMain {
         else {
             System.out.println("Invalid input");
         }
+        sc.close();
 
     }
     

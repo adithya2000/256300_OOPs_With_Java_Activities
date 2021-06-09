@@ -14,6 +14,7 @@ public class InningsMain {
         int runs=sc.nextInt();
         i.setruns(runs);
         i.displayInningsDetails();
+        sc.close();
     }
     
 }

@@ -20,6 +20,7 @@ public class EmployeeMain {
         System.out.println("Name: "+e.getName());
         System.out.println("Address: "+e.getAddress());
         System.out.println("Mobile: "+e.getMobile());
+        sc.close();
         }
         catch(Exception ex){
             System.out.println("Invalid Input");
